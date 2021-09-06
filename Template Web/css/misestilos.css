@@ -1,0 +1,160 @@
+
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Mali', cursive;
+font-weight: bold;
+}
+
+p,a {
+    font-family: 'Open Sans', sans-serif; 
+}
+.bg-primary {
+    background-color: #e5980e!important;
+}
+
+.nav-link.bg-primary:hover {
+    background-color: #C48622!important;
+}
+
+.text-primary {
+    color: #e5980e!important;
+}
+
+.border-primary { 
+    border-color: #e5980e!important;}
+
+
+.bg-secondary {
+    background-color: #46a29b!important;
+    color: white;
+    border: none;
+}
+
+.nav-link.bg-secondary:hover {
+    background-color: #37776F!important;
+}
+
+.text-secondary {
+    color: #46a29b!important;
+}
+
+.border-secondary { 
+    border-color: #46a29b!important;}
+
+
+.text-info {
+    color: #17A2B8!important;
+}
+a {
+    color: #ce8933;
+}
+
+a:hover {
+    color: #9E672D;
+}
+
+.form-control.bg-secondary:hover{
+    background-color: #37776F!important;
+}
+
+.btn.bg-secondary:hover{
+    background-color: #37776F!important;
+}
+
+
+
+.form-control::-moz-placeholder {
+  color:  #17A2B8!important;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color:  #17A2B8!important;
+}
+.form-control::-webkit-input-placeholder {
+  color:  #17A2B8!important;
+}
+
+
+hr {
+    background-image: url(imgcss/separacion.png);
+    height: 20px;
+    width: 100%;
+    border: none;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    background-color: #b8f9f4!important;
+
+}
+
+
+.kwicks-vertical {
+				width: 300px;
+				height: 300px;
+                margin: 15px;
+			}
+			.kwicks-vertical > li {
+				height: 50px;
+				margin-top: 5px;
+			}
+			.kwicks-horizontal {
+				width: 300px;
+				height: 100%;
+			}
+			.kwicks-horizontal > li {
+				height: 100%;
+				width: 50px;
+				float: left;
+				margin-left: 5px;
+				background-color: #ffaa00;
+			}
+
+
+
+@media all and (min-width:940px)  {
+    	.kwicks-vertical {
+    	                width: 350px;
+    	                height: 350px;
+    	                margin: 15px;
+    	            }
+    	            .kwicks-vertical > li {
+    	                height: 350px;
+    	                margin-top: 5px;
+    	            }
+    	            .kwicks-horizontal {
+    	                width: 350px;
+    	                height: 100%;
+    	            }
+    	            .kwicks-horizontal > li {
+    	                height: 100%;
+    	                width: 400px;
+    	                float: left;
+    	                margin-left: 5px;
+    	                background-color: #ffaa00;
+    	            }
+}
+    	
+@media all and (min-width:1000px)  {
+    	.kwicks-vertical {
+    	                width: 450px;
+    	                height: 450px;
+    	                margin: 15px;
+    	            }
+    	            .kwicks-vertical > li {
+    	                height: 450px;
+    	                margin-top: 5px;
+    	            }
+    	            .kwicks-horizontal {
+    	                width: 450px;
+    	                height: 100%;
+    	            }
+    	            .kwicks-horizontal > li {
+    	                height: 100%;
+    	                width: 400px;
+    	                float: left;
+    	                margin-left: 5px;
+    	                background-color: #ffaa00;
+    	            }
+}
+    	
